@@ -1,61 +1,56 @@
-# cek-ongkir
+# 📦 Ongkir Berapa (Shipping Cost Estimator)
 
-This is a [React](https://react.dev/) project bootstrapped with [`Vite`](https://vitejs.dev/).
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-blue?style=for-the-badge)](https://ongkir-berapa.vercel.app/)
 
+**Ongkir Berapa** is a fast, utility-focused web application designed to check real-time shipping costs and logistics rates across Indonesia. Built with modern web technologies, this project demonstrates the ability to seamlessly integrate external APIs, manage complex asynchronous states, and deliver a frictionless user experience.
 
-## Getting Started
+As a Frontend Developer, this repository highlights my proficiency in handling dynamic data fetching, creating intuitive search/autocomplete forms, and structuring a clean, minimalist UI that presents tabular data clearly.
 
-### Prerequisites
+## ✨ Core Features
 
-Ensure you have the following software installed on your local machine:
+*   **Real-time API Integration:** Fetches accurate, up-to-date shipping rates from external logistics APIs based on origin, destination, and package weight.
+*   **Dynamic Search & Autocomplete:** Implemented optimized search inputs for easily finding and selecting provinces and cities.
+*   **Robust State Management:** Handles API loading states, data validation, and error boundaries gracefully to ensure a smooth user journey.
+*   **Clean & Responsive UI:** Designed with a "3D flat" aesthetic and minimalist approach, ensuring the interface remains uncluttered and highly readable across mobile and desktop devices.
 
-- Node.js (version 14.x or later)
-- npm (version 6.x or later)
+## 🛠️ Tech Stack
 
-### Installation
+*   **Frontend Framework:** [e.g., Svelte 5 / Next.js / React]
+*   **Styling:** Tailwind CSS (Customized for a clean, modern, and accessible interface)
+*   **Data Fetching & State:** [e.g., native fetch / Axios / TanStack Query]
+*   **Deployment:** Vercel
 
-1. Clone the repository:
+## 🚀 Local Development
 
-   ```bash
-   git clone https://github.com/Haresz/ongkir-berapa
-   cd ongkir-berapa
-   ```
+To run this project locally, you will need Node.js installed and a valid API key for the shipping provider (e.g., RajaOngkir).
 
-2. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-
-### Running the Development Server
-
-To start the development server, run the following command:
-
+1.  **Clone the repository:**
 ```bash
-npm run dev
+    git clone [https://github.com/Haresz/ongkir-berapa.git](https://github.com/Haresz/ongkir-berapa.git)
+    cd ongkir-berapa
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
-
-### Building for Production
-
-To build the application for production, run the following command:
-
+2.  **Install dependencies:**
 ```bash
-npm run build
+    npm install
+    # or yarn / pnpm install
 ```
 
-To start the production server:
-
-```bash
-npm start
+3.  **Environment Variables:**
+    Create a `.env` or `.env.local` file in the root directory and add your API key. *(Important: Never commit your actual `.env` file to GitHub)*.
+```env
+    VITE_SHIPPING_API_KEY=your_api_key_here
+    VITE_API_BASE_URL=[https://api.example.com/v1](https://api.example.com/v1)
 ```
 
-## Dummy Data
+4.  **Run the development server:**
+```bash
+    npm run dev
+    # or yarn dev / pnpm dev
+```
 
-To use the dummy data for testing purposes, you can log in with the following credentials:
+5.  Open your browser and navigate to the local server URL (usually `http://localhost:5173` or `http://localhost:3000`).
 
-- **Username:** kurir
-- **Password:** P4ket!1
+---
 
-Happy coding!
+**Muhammad Haris Al Fikri** | Web Programmer & Frontend Developer
